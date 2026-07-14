@@ -127,6 +127,11 @@ function openModal(title, iconClass, description, link = null) {
     if (link) {
         modalLink.href = link;
         modalLink.style.display = 'inline-block';
+        if (link.includes('play.google.com')) {
+            modalLink.innerHTML = '<i class="fab fa-google-play"></i> View on Play Store';
+        } else {
+            modalLink.innerHTML = '<i class="fas fa-globe"></i> Visit Website';
+        }
     } else {
         modalLink.style.display = 'none';
     }

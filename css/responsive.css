@@ -1,0 +1,68 @@
+/* Additional Responsive Fixes */
+
+/* Fix for inputs and contact cards exceeding container width on mobile */
+input, textarea {
+    box-sizing: border-box !important;
+    max-width: 100%;
+}
+
+.contact-card span {
+    word-break: break-all;
+}
+
+@media (max-width: 992px) {
+    .stats-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .stats-container {
+        gap: 20px;
+    }
+    .stat-item {
+        flex: 1 1 40%;
+        text-align: center;
+    }
+    .hero-actions {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact-content {
+        padding: 40px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+    .hero-title {
+        font-size: 2rem;
+    }
+    .contact-content {
+        padding: 30px 20px;
+    }
+    .stat-item {
+        flex: 1 1 100%;
+    }
+    .stat-item h3 {
+        font-size: 1.8rem;
+    }
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+    .hero-actions .btn {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
