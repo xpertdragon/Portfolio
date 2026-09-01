@@ -54,7 +54,7 @@
             <div class="badge">Available for Work</div>
             <h1 class="hero-title">
                 Hi, I'm <span class="highlight">Muhammad Kamran</span><br>
-                Android Developer
+                <span id="typewriter-text" class="typewriter">Android Developer</span><span class="cursor">|</span>
             </h1>
             <p class="hero-subtitle">
                 Specializing in building robust and scalable native Android applications with Kotlin, focusing on clean architecture, intuitive UI, and seamless performance.
@@ -62,34 +62,81 @@
             <div class="hero-actions">
                 <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
                 <a href="#contact" class="btn btn-secondary">Contact Me</a>
-            </div>
-            
-            <div class="stats-container reveal">
-                <div class="stat-item">
-                    <h3>1+</h3>
-                    <p>Year Experience</p>
-                </div>
-
-                <div class="stat-item">
-                    <h3>5+</h3>
-                    <p>Apps Delivered</p>
-                </div>
-                <div class="stat-item">
-                    <h3>100%</h3>
-                    <p>Success Rate</p>
+                <div class="social-links" style="margin-left: 10px;">
+                    <a href="https://github.com/xpertdragon" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammad-kamran-53a701328" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
 
-            <div class="social-links">
-                <a href="https://github.com/xpertdragon" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/muhammad-kamran-53a701328" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <!-- Tech Stack Row -->
+            <div class="tech-stack-row reveal">
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin" class="tech-logo">
+                    <span>Kotlin</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-java tech-logo" style="color: #f89820; font-size: 28px;"></i>
+                    <span>Java</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo-box"><i class="fab fa-android" style="color: #3ddc84;"></i></div>
+                    <span>Jetpack</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg" alt="Firebase" class="tech-logo">
+                    <span>Firebase</span>
+                </div>
+
+                <div class="tech-item">
+                    <div class="tech-logo-box"><i class="fas fa-layer-group" style="color: #F44336;"></i></div>
+                    <span>Room</span>
+                </div>
+
+            </div>
+
+            <!-- Stats -->
+            <div class="image-stats-container reveal">
+                <div class="img-stat-item">
+                    <div class="stat-icon-circle"><i class="fas fa-code"></i></div>
+                    <p><strong>1+ YEAR</strong><br>EXPERIENCE</p>
+                </div>
+                <div class="img-stat-item">
+                    <div class="stat-icon-circle"><i class="fas fa-briefcase"></i></div>
+                    <p><strong>5+</strong><br>APPS DELIVERED</p>
+                </div>
+                <div class="img-stat-item">
+                    <div class="stat-icon-circle"><i class="fas fa-check-circle"></i></div>
+                    <p><strong>100%</strong><br>SUCCESS RATE</p>
+                </div>
             </div>
         </div>
+
         <div class="hero-graphic reveal-right">
-            <div class="graphic-circle"></div>
-            <div class="floating-icon icon-1"><i class="fab fa-android"></i></div>
-            <div class="floating-icon icon-2"><i class="fas fa-code"></i></div>
-            <div class="floating-icon icon-3"><i class="fab fa-java"></i></div>
+            <!-- Tech Orbit -->
+            <div class="tech-orbit">
+                <div class="orbit-center">
+                    <i class="fab fa-android"></i>
+                </div>
+                <div class="orbit-circle orbit-1">
+                    <div class="orbit-icon icon-kotlin">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin" style="width: 24px; height: 24px; object-fit: contain;">
+                    </div>
+                    <div class="orbit-icon icon-java">
+                        <i class="fab fa-java"></i>
+                    </div>
+                </div>
+                <div class="orbit-circle orbit-2">
+                    <div class="orbit-icon icon-firebase">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg" alt="Firebase" style="width: 24px; height: 24px; object-fit: contain;">
+                    </div>
+                    <div class="orbit-icon icon-room">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="orbit-icon icon-compose">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -270,15 +317,15 @@
         </div>
         <div class="faq-container reveal">
             <details class="faq-item">
-                <summary>Do you develop both Android and web applications?</summary>
+                <summary>Do you provide post-launch maintenance?</summary>
                 <div class="faq-answer">
-                    <p>Yes. I specialize in native Android development using Kotlin and Java, and I also build modern full-stack web applications with responsive frontends and robust backend functionality.</p>
+                    <p>Yes. After delivering an Android application, I provide support for bug fixes, minor updates, and performance improvements to ensure the app runs smoothly in the production environment.</p>
                 </div>
             </details>
             <details class="faq-item">
-                <summary>Can you work with an existing Android or web project?</summary>
+                <summary>Can you work with an existing legacy codebase?</summary>
                 <div class="faq-answer">
-                    <p>Absolutely. I can work on existing codebases, understand the current architecture, fix bugs, add new features, refactor code, improve performance, and modernize applications without disrupting existing functionality.</p>
+                    <p>Absolutely. I can take over existing Android codebases, understand the current architecture, fix bugs, add new features, and refactor code to improve performance and maintainability without breaking existing functionality.</p>
                 </div>
             </details>
             <details class="faq-item">
